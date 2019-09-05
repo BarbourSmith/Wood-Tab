@@ -9,7 +9,7 @@
             "ioValues": [
                 {
                     "name": "Material Thickness",
-                    "ioValue": 5
+                    "ioValue": 3
                 },
                 {
                     "name": "Length",
@@ -21,8 +21,8 @@
                 {
                     "atomType": "Input",
                     "name": "Material Thickness",
-                    "x": 34,
-                    "y": 67,
+                    "x": 30,
+                    "y": 35,
                     "uniqueID": 379587,
                     "ioValues": []
                 },
@@ -35,10 +35,24 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 204,
+                    "y": 69,
+                    "uniqueID": 657656,
+                    "ioValues": [
+                        {
+                            "name": "W",
+                            "ioValue": 3
+                        }
+                    ],
+                    "currentEquation": "W/2"
+                },
+                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 208,
-                    "y": 125,
+                    "x": 204,
+                    "y": 128,
                     "uniqueID": 983605,
                     "ioValues": [
                         {
@@ -47,7 +61,55 @@
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 3
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 205,
+                    "y": 182,
+                    "uniqueID": 845757,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 50
+                        }
+                    ],
+                    "currentEquation": "L/2"
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 346,
+                    "y": 130,
+                    "uniqueID": 666190,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 25
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 1.5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 465,
+                    "y": 33,
+                    "uniqueID": 444064,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 3
                         }
                     ]
                 },
@@ -60,12 +122,64 @@
                 }
             ],
             "allConnectors": [
-                null,
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y length",
+                    "ap1ID": 379587,
+                    "ap2ID": 983605
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "W",
+                    "ap1ID": 379587,
+                    "ap2ID": 657656
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap1ID": 379587,
+                    "ap2ID": 444064
+                },
                 {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x length",
                     "ap1ID": 587964,
                     "ap2ID": 983605
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap1ID": 587964,
+                    "ap2ID": 845757
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 657656,
+                    "ap2ID": 666190
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 983605,
+                    "ap2ID": 666190
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 845757,
+                    "ap2ID": 666190
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 666190,
+                    "ap2ID": 444064
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 444064
                 }
             ],
             "fileTypeVersion": 1
