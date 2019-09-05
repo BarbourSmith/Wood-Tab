@@ -6,9 +6,51 @@
             "x": 0,
             "y": 0,
             "uniqueID": 609072,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Material Thickness",
+                    "ioValue": 5
+                },
+                {
+                    "name": "Length",
+                    "ioValue": 50
+                }
+            ],
             "topLevel": true,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Material Thickness",
+                    "x": 34,
+                    "y": 67,
+                    "uniqueID": 379587,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 36,
+                    "y": 196,
+                    "uniqueID": 587964,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 208,
+                    "y": 125,
+                    "uniqueID": 983605,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 50
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -17,7 +59,15 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                null,
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x length",
+                    "ap1ID": 587964,
+                    "ap2ID": 983605
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
