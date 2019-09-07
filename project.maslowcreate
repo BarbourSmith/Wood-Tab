@@ -152,12 +152,44 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 373,
+                    "y": 265,
+                    "uniqueID": 344331,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 50
+                        },
+                        {
+                            "name": "D",
+                            "ioValue": 4
+                        }
+                    ],
+                    "currentEquation": "L + D/2"
+                },
+                {
                     "atomType": "CutAway",
                     "name": "Cut Away",
                     "x": 527,
                     "y": 46,
                     "uniqueID": 823121,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 625,
+                    "y": 83,
+                    "uniqueID": 619901,
+                    "ioValues": [
+                        {
+                            "name": "D",
+                            "ioValue": 4
+                        }
+                    ],
+                    "currentEquation": "D/-2"
                 },
                 {
                     "atomType": "Translate",
@@ -168,7 +200,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 50
+                            "ioValue": 52
                         },
                         {
                             "name": "yDist",
@@ -189,7 +221,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -2
                         },
                         {
                             "name": "yDist",
@@ -248,6 +280,18 @@
                 },
                 {
                     "ap1Name": "number or geometry",
+                    "ap2Name": "D",
+                    "ap1ID": 450780,
+                    "ap2ID": 344331
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "D",
+                    "ap1ID": 450780,
+                    "ap2ID": 619901
+                },
+                {
+                    "ap1Name": "number or geometry",
                     "ap2Name": "y length",
                     "ap1ID": 379587,
                     "ap2ID": 983605
@@ -302,9 +346,9 @@
                 },
                 {
                     "ap1Name": "number or geometry",
-                    "ap2Name": "xDist",
+                    "ap2Name": "L",
                     "ap1ID": 587964,
-                    "ap2ID": 544776
+                    "ap2ID": 344331
                 },
                 {
                     "ap1Name": "result",
@@ -331,6 +375,12 @@
                     "ap2ID": 162012
                 },
                 {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 344331,
+                    "ap2ID": 544776
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 823121,
@@ -340,6 +390,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 823121,
+                    "ap2ID": 894115
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 619901,
                     "ap2ID": 894115
                 },
                 {
