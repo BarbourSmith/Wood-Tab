@@ -14,6 +14,10 @@
                 {
                     "name": "Length",
                     "ioValue": 50
+                },
+                {
+                    "name": "Overcut Diameter",
+                    "ioValue": 10
                 }
             ],
             "topLevel": true,
@@ -78,6 +82,14 @@
                         }
                     ],
                     "currentEquation": "L/2"
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Overcut Diameter",
+                    "x": 114,
+                    "y": 261,
+                    "uniqueID": 450780,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
