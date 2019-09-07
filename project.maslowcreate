@@ -162,34 +162,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 642,
-                    "y": 41,
-                    "uniqueID": 193857,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 647,
-                    "y": 110,
+                    "x": 658,
+                    "y": 265,
                     "uniqueID": 544776,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 50
                         },
                         {
                             "name": "yDist",
@@ -204,32 +183,32 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 810,
-                    "y": 179,
+                    "x": 855,
+                    "y": 147,
                     "uniqueID": 162012,
                     "ioValues": [
                         {
-                            "name": "3D shape 903564",
+                            "name": "3D shape 179151",
                             "ioValue": ""
-                        },
-                        {
-                            "name": "3D shape 184782",
-                            "ioValue": 10
                         },
                         {
                             "name": "3D shape 465985",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 401290",
+                            "name": "3D shape 813198",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 903564",
+                            "name": "3D shape 906686",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 179151",
                             "ioValue": 10
                         }
                     ],
-                    "removeCutawayGeometry": true
+                    "removeCutawayGeometry": false
                 },
                 {
                     "atomType": "Output",
@@ -295,6 +274,12 @@
                     "ap2ID": 845757
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "xDist",
+                    "ap1ID": 587964,
+                    "ap2ID": 544776
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 983605,
@@ -320,7 +305,7 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 184782",
+                    "ap2Name": "3D shape 906686",
                     "ap1ID": 444064,
                     "ap2ID": 162012
                 },
@@ -332,14 +317,8 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
+                    "ap2Name": "3D shape 813198",
                     "ap1ID": 823121,
-                    "ap2ID": 193857
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 401290",
-                    "ap1ID": 193857,
                     "ap2ID": 162012
                 },
                 {
@@ -347,6 +326,11 @@
                     "ap2Name": "3D shape 465985",
                     "ap1ID": 544776,
                     "ap2ID": 162012
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 162012
                 }
             ],
             "fileTypeVersion": 1
